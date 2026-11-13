@@ -1,0 +1,5 @@
+location       = "eastus2"
+vm_size        = "Standard_B1s"
+ssh_key        = [insert public SSH key]
+admin_ssh_cidr = "129.21.0.0/16" # Use "*" temporarily if deploying/testing off RIT network without VPN
+inventory_path = "../ansible/inventory.yml"
