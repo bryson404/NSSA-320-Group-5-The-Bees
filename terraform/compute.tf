@@ -75,7 +75,7 @@ resource "azurerm_linux_virtual_machine" "backup_vm" {
 
   # Safeguard against accidental destruction during DR rebuild tests
   lifecycle {
-    prevent_destroy = false
+    prevent_destroy = true
   }
 }
 
