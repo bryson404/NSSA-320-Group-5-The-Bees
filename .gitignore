@@ -7,3 +7,14 @@
 crash.log
 override.tf
 override.tf.json
+ssh/
+.ssh/
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+inventory
+inventory.ini
+inventory.yml
+inventory.yaml
+hosts
